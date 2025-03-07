@@ -2,6 +2,11 @@
 
 Se trata de un pequeño videojuego sin sonorizar que puede servir como punto de partida para una práctica de integración de FMOD, diseño de sonido y composición sonora. En él manejamos una nave espacial que se tiene que desplazar y disparar asteroides hasta destruir suficientes como para ganar la partida.
 
+El índice de la documentación es el siguiente:
+* [Autoría y licencia](#Autoría y licencia)
+* [Instalación y uso](#Instalación y uso)
+* [Mecánica](#Mecánica)
+
 ## Autoría y licencia
 Pablo Rodríguez-Tembleco y Federico Peinado son los responsables de esta versión de marzo de 2025 (Unreal Engine 5.5), una leve modificación de un proyecto original [ImplemenTournament](https://max-koko.itch.io/implementournament) de Jon Kelliher y Avishai, desarrollado en septiembre de 2024 (Unreal Engine 5.3) para la comunidad de [AirWiggles](https://www.airwiggles.com/), con ayuda de Greg Lester y Lewis Thompson.
 El proyecto originar servía para que los participantes del torneo ImplemenTournament creasen efectos sonoros interactivos en FMOD y los integrasen en el juego, y es algo similar lo que propondremos a los alumnos del [Máster en Tecnologías en la Composición de Bandas Sonoras y Música para Videojuegos](https://www.ucm-musica-audiovisual.com/) de la UCM.
@@ -28,50 +33,15 @@ Concretamente los controles del jugador para el teclado son estos (aunque tambi�
 
 ## Dinámica
 
+El objetivo del juego es destruir 10 asteroides. El sistema lleva la cuenta de los que destruyas y muestra un mensaje cuando lo haces.
+Apenas hay dinámicas de juego establecida, como límites de tiempo o enemigos... tal sólo tienes que conseguir el objetivo como prefieras hacerlo.
+
 ## Estética
 
+La idea es que sientas ser el dueño de una nave que avanza por el espacio y destruye unos asteroides inmóviles que aparecen aleatoriamente a lo largo de tu camino, con lo que no es un juego espacialmente emocionante aunque está correctamente realizado.
+El aspecto visual es bastante cartoon, con buenos modelos 3D y efectos de partículas bastantes creíbles, pero como dijimos antes no hay música ni sonido alguno.
 
-## Preproducción
-Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego que plantee pruebas divertidas y un super-castillo final al que hay que escalar para conseguir el trofeo.
-
-El diseño tiene estas secciones:
-- [Estética](#Estética)
-  * [Gráficos](#Gráficos)
-  * [Sonidos](#Sonidos)
-- [Dinámica](#Dinámica)
-  * [Objetivo](#Objetivo)
-  * [Castigo](#Derrota)
-- [Mecánica](#Mecánica)
-  * [Avatar](#Avatar)
-  * [Pociones](#Pociones)
-  * [Barriles](#Barriles)
-  * [Troncos](#Troncos)
-  * [Balas](#Balas)
-  * [Plataformas fantasma](#Plataformas)
-  * [Puertas falsas](#Puertas)
-  * [Trofeo](#Trofeo)
-- [Contenido](#Contenido)
-  * [Zona 1](#Zona-1)
-  * [Zona 2](#Zona-2)
-  * [Zona 3](#Zona-3)
-  * [Zona 4](#Zona-4)
-  * [Zona 5](#Zona-5)
-
-### Estética
-El juego usa solamente el contenido de la plantilla Third Person y el de principiantes, simplificando al máximo la composición de la escena, aunque sin tener un aspecto pulido y acabado.
-
-#### Gráficos
-El juego usa solamente el contenido de la plantilla Third Person y el de principiantes.
-
-#### Sonidos
-No hay música ambiente y los sonidos utilizados son simplemente:
-- **Power Up**. Se activa al coger alguna de las pociones.
-- **Cañón**. Cada vez que un cañón dispara emitirá este sonido.
-- **Victoria**. Cuando el jugador coge el trofeo sonará una fanfarria de victoria.
-
-### Dinámica
-La dinámica del juego consiste en llegar hasta el final sin tardar ni morir demasiado, aunque no hay límites temporales y la muerte únicamente supone repetir el recorrido desde el principio.
-
+ 
 ```mermaid
 stateDiagram
     [*] --> Inicio
