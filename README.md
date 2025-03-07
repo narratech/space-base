@@ -31,6 +31,7 @@ Como parte del diseño de jugabilidad tenemos las siguientes mecánicas:
 Concretamente los controles del jugador para el teclado son estos (aunque también hay posibilidad de usar un gamepad):
 * Barra espaciadora - Aceleración 
 * Botón izquierdo del ratón - Disparo
+* Tecla Escape - Salir del juego
 * Tecla Shift - Hiperimpulso 
 * Teclas W, A, S y D - Movimiento 2D
 
