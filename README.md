@@ -3,9 +3,11 @@
 Se trata de un pequeño videojuego sin sonorizar que puede servir como punto de partida para una práctica de integración de FMOD, diseño de sonido y composición sonora. En él manejamos una nave espacial que se tiene que desplazar y disparar asteroides hasta destruir suficientes como para ganar la partida.
 
 El índice de la documentación es el siguiente:
-* [Autoría y licencia](#Autoría y licencia)
-* [Instalación y uso](#Instalación y uso)
+* [Autoría y licencia](#Autoría)
+* [Instalación y uso](#Instalación)
 * [Mecánica](#Mecánica)
+
+* Mecánica
 
 ## Autoría y licencia
 Pablo Rodríguez-Tembleco y Federico Peinado son los responsables de esta versión de marzo de 2025 (Unreal Engine 5.5), una leve modificación de un proyecto original [ImplemenTournament](https://max-koko.itch.io/implementournament) de Jon Kelliher y Avishai, desarrollado en septiembre de 2024 (Unreal Engine 5.3) para la comunidad de [AirWiggles](https://www.airwiggles.com/), con ayuda de Greg Lester y Lewis Thompson.
